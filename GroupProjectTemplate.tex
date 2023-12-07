@@ -1,0 +1,70 @@
+\documentclass[11pt]{amsart}
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+
+
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{placeins} %enables \FloatBarrier, that prevents floats from going below it.
+
+
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+
+
+\begin{document}
+
+\title{Place title of Group Project Here}
+\author{Place Names of Group Members Here}
+
+%% comment out next command to put today's date after names of group members, or put a desired day in the parethesis
+\date{}
+
+\maketitle
+
+\begin{abstract}
+Place abstract Here.
+\end{abstract}
+
+%% First Section
+\section{Background/Movitation}
+
+Put your background motivation stuff here. Also reference articles and sources that are relevant or that you used when  \cite{Vandermeersch}.
+
+%% Second Section 
+\section{Modeling}
+
+
+
+%% Third Section
+\section{Results}
+
+%%Fourth Section
+\section{Analysis/Conclusions}
+
+
+\begin{figure}[h]
+\begin{center} %Put your images in a figure like this
+\includegraphics[width=\textwidth]{Myfig.pdf}. % Better to make them pdfs than png or gif or jpeg
+\end{center}
+\label{fig:MatrixError}
+\end{figure}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography below
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\FloatBarrier % Keep the figures from being put after the bibliography
+\newpage
+%% If using bibtex, leave this uncommented
+\bibliography{refs} %if using bibtex, call your bibtex file refs.bib
+\bibliographystyle{alpha}
+
+%% If not using bibtex, comment out the previous two lines and uncomment those below
+%\begin{thebibliography}{99}
+%\bibitem{Vandermeersch} First reference goes here
+%\end{thebibliography}
+
+\end{document}
