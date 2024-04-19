@@ -1,6 +1,6 @@
 # Keeping Up with the Jones': Electric Vehicle Adoption in the U.S.
 
-By Jeff Hansen, Eliza Powell, Gwen Martin, Dallin Stewar
+By Dallin Stewart, Jeff Hansen, Eliza Powell, Gwen Martin
 
 December 7, 2023
 
